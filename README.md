@@ -23,6 +23,7 @@ A warm, non-judgmental mental health companion skill for Claude Code — designe
 ### 前置要求
 
 - [Claude Code](https://claude.ai/code) 已安装
+- 如果还没有 Claude 账号、不方便注册，可以参考这篇教程：[不用翻墙、不用注册、不用月费，普通人也能用上 Claude Code](https://hejunjie.life/blog/d9d821wf)
 
 ### 通过 Skills CLI 安装
 
@@ -39,14 +40,18 @@ git clone https://github.com/zxc7563598/mental-health-companion.git \
 
 ## 使用方式
 
-安装后，在 Claude Code 中**自然地表达情绪困扰**即可触发。例如：
+在 Claude Code 中输入以下命令启动：
+
+```
+/mental-health-companion
+```
+
+第一次使用时，skill 会先问你的称呼，之后每次对话都会自动识别你、加载之前的记录。
+
+你也可以直接表达情绪困扰，skill 会自动触发（但推荐用上面的命令，更稳定）：
 
 - 「最近总是睡不好，脑子里一直想事情」
 - 「我妈又打电话催我结婚了，好烦」
-- 「不知道为什么，对什么都没兴趣了」
-- 「每天上班都觉得喘不过气来」
-
-**第一次使用时，skill 会先问你的称呼**，之后每次对话都会自动识别你、加载之前的记录。
 
 ### 常用对话指令
 
