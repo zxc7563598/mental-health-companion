@@ -8,17 +8,17 @@ A warm, non-judgmental mental health companion skill for Claude Code — designe
 
 ---
 
-## ✨ 功能特点
+## 功能特点
 
-- 🫂 **温暖陪伴** —— 不是一个冷冰冰的评估工具，而像一个善于倾听的朋友
-- 🧧 **东亚文化敏感** —— 理解孝道、面子、内卷、催婚、讨好型人格等文化特有的压力来源
-- 📋 **多用户档案** —— 按称呼自动创建/查找档案，一台电脑多人使用互不干扰
-- 🧠 **跨会话记忆** —— 自动记录关键心理状态，下次对话自然衔接，不用从头说起
-- 📖 **通俗心理科普** —— 用比喻和日常语言解释心理机制（烟雾报警器、压力水杯、内心的裁判……），不堆砌学术术语
-- 🚨 **危机识别** —— 内置危机信号检测和中国大陆心理援助资源
-- 🔒 **隐私友好** —— 所有记录存在本地 skill 目录下，不上传任何地方，随时可删除
+- **温暖陪伴** —— 不是一个冷冰冰的评估工具，而像一个善于倾听的朋友
+- **东亚文化敏感** —— 理解孝道、面子、内卷、催婚、讨好型人格等文化特有的压力来源
+- **多用户档案** —— 按称呼自动创建/查找档案，一台电脑多人使用互不干扰
+- **跨会话记忆** —— 自动记录关键心理状态，下次对话自然衔接，不用从头说起
+- **通俗心理科普** —— 用比喻和日常语言解释心理机制（烟雾报警器、压力水杯、内心的裁判……），不堆砌学术术语
+- **危机识别** —— 内置危机信号检测和中国大陆心理援助资源
+- **隐私友好** —— 所有记录存在本地 skill 目录下，不上传任何地方，随时可删除
 
-## 📦 安装
+## 安装
 
 ### 前置要求
 
@@ -27,18 +27,17 @@ A warm, non-judgmental mental health companion skill for Claude Code — designe
 ### 通过 Skills CLI 安装
 
 ```bash
-npx skills add <your-github-username>/mental-health-companion
+npx skills add zxc7563598/mental-health-companion
 ```
 
 ### 手动安装
 
 ```bash
-# 克隆到 Claude Code 的 skills 目录
-git clone https://github.com/<your-username>/mental-health-companion.git \
+git clone https://github.com/zxc7563598/mental-health-companion.git \
   ~/.claude/skills/mental-health-companion
 ```
 
-## 🚀 使用方式
+## 使用方式
 
 安装后，在 Claude Code 中**自然地表达情绪困扰**即可触发。例如：
 
@@ -57,7 +56,7 @@ git clone https://github.com/<your-username>/mental-health-companion.git \
 | 清空自己的所有记录 | 「清空我的档案」 |
 | 换个话题 | 直接说新的话题就好 |
 
-## 📁 文件结构
+## 文件结构
 
 ```
 mental-health-companion/
@@ -77,7 +76,7 @@ mental-health-companion/
         └── ...
 ```
 
-## ⚠️ 重要声明
+## 重要声明
 
 **本 skill 提供的是心理陪伴与情绪疏导，并非专业心理咨询或治疗。**
 
@@ -90,7 +89,7 @@ mental-health-companion/
 
 **如果你正在经历严重的心理危机（自杀念头、自伤冲动等），请立即寻求专业帮助。** skill 内置了全国心理援助热线信息，也可以在 `references/危机资源.md` 中查看。
 
-## 🎯 设计理念
+## 设计理念
 
 ### 为什么是「陪伴」而不是「诊断」
 
@@ -113,7 +112,7 @@ mental-health-companion/
 
 这个 skill 试图在**心理健康的专业框架**和**东亚文化的现实处境**之间找到一个平衡点。
 
-## 🤝 贡献
+## 贡献
 
 欢迎提 Issue 和 Pull Request！
 
@@ -122,7 +121,7 @@ mental-health-companion/
 - 东亚文化特定心理议题的补充
 - `references/危机资源.md` 中更多地区的心理援助资源
 
-## 📄 许可
+## 许可
 
 MIT License
 
